@@ -1,0 +1,80 @@
+# ==============================================================================
+# .gitignore for MATLAB & Simulink Projects (DEMD Project)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# MATLAB & Simulink Artifacts & Caches
+# ------------------------------------------------------------------------------
+# Autosave and backup files
+*.asv
+*.m~
+*.autosave
+*.bak
+
+# Simulink simulation cache and code generation folders
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*.slxc
+
+# MATLAB P-code and compiled binaries
+*.p
+*.mex*
+
+# MATLAB figure temporary files and logs
+*.fig.autosave
+*.log
+
+# MATLAB Project files (if not tracking project metadata)
+# .SimulinkProject/
+# resources/project/
+
+# Simulation output data (uncomment if you don't want to commit .mat results)
+# *.mat
+
+# ------------------------------------------------------------------------------
+# LaTeX Compilation Artifacts (Report source builds)
+# ------------------------------------------------------------------------------
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# ------------------------------------------------------------------------------
+# Operating System & Editor Files
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo

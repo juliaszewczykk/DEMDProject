@@ -180,15 +180,10 @@ DEMDProject/
 │   └── Report_final.m                  # Parameter setup, PI synthesis, and post-processing script
 │
 ├── models/                             # Simulink models & block diagrams
-│   ├── Simulink_final.slx              # Three-loop non-linear dynamic model
-│   └── Simulink_final.slx.zip          # Preserved compressed model archive
+│   └── Simulink_final.slx              # Three-loop non-linear dynamic model
 │
-├── docs/                               # Academic reports and documentation
-│   └── Electrical_machines_report.pdf  # 15-page complete course technical report
-│
-└── scripts/                            # Automation scripts
-    ├── organize.bat                    # Windows Batch utility to organize files & extract model
-    └── organize.ps1                    # PowerShell utility to organize files & extract model
+└── docs/                               # Academic reports and documentation
+    └── Electrical_machines_report.pdf  # 15-page complete course technical report
 ```
 
 ---
